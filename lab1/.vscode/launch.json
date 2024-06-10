@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "aarch64-gdb",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/miniEuler",
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "launchCompleteCommand": "exec-run",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gdb", // 修改成交叉调试器gdb对应位置
+            "miDebuggerServerAddress": "localhost:1234",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

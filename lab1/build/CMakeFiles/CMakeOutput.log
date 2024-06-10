@@ -1,0 +1,201 @@
+The target system is: Generic -  - aarch64
+The host system is: Linux - 6.5.0-28-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gcc 
+Build flags: -Os;;;-Wformat-signedness;;;;-Wl,--build-id=none;;;-fno-PIE;-fno-PIE;--specs=nosys.specs;-fno-builtin;-fno-dwarf2-cfi-asm;-fomit-frame-pointer;-fzero-initialized-in-bss;-fdollars-in-identifiers;-ffunction-sections;-fdata-sections;-fno-aggressive-loop-optimizations;-fno-optimize-strlen;-fno-schedule-insns;-fno-inline-small-functions;-fno-inline-functions-called-once;-fno-strict-aliasing;-finline-limit=20;;-mlittle-endian;-nostartfiles;-funwind-tables;
+Id flags:  
+
+The output was:
+0
+/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400000
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/fengzhua/OSlab/lab1/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+aarch64-none-elf-gcc (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 11.2.1 20220111
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/fengzhua/OSlab/lab1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_083d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_083d4.dir/build.make CMakeFiles/cmTC_083d4.dir/build
+gmake[1]: Entering directory '/home/fengzhua/OSlab/lab1/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj
+/home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gcc   -Os   -Wformat-signedness    -Wl,--build-id=none   -fno-PIE -fno-PIE --specs=nosys.specs -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20  -mlittle-endian -nostartfiles -funwind-tables     -v -o CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+Reading specs from /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+COLLECT_GCC_OPTIONS='-Os' '-Wformat-signedness' '-fno-PIE' '-specs=nosys.specs' '-fno-builtin' '-fno-dwarf2-cfi-asm' '-fomit-frame-pointer' '-fzero-initialized-in-bss' '-fdollars-in-identifiers' '-ffunction-sections' '-fdata-sections' '-fno-aggressive-loop-optimizations' '-fno-optimize-strlen' '-fno-schedule-insns' '-fno-inline-small-functions' '-fno-inline-functions-called-once' '-fno-strict-aliasing' '-finline-limit=20' '-mlittle-endian' '-nostartfiles' '-funwind-tables' '-v' '-o' 'CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_083d4.dir/'
+ /home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/cc1 -quiet -v -iprefix /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_083d4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -Os -Wformat-signedness -version -fno-PIE -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20 -funwind-tables -o /tmp/cceaSyV0.s
+GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"
+ignoring duplicate directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include"
+ignoring duplicate directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include-fixed"
+ignoring nonexistent directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"
+ignoring duplicate directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include
+ /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed
+ /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include
+End of search list.
+GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: f439aba255d83361daaefa61251d2eab
+COLLECT_GCC_OPTIONS='-Os' '-Wformat-signedness' '-fno-PIE' '-specs=nosys.specs' '-fno-builtin' '-fno-dwarf2-cfi-asm' '-fomit-frame-pointer' '-fzero-initialized-in-bss' '-fdollars-in-identifiers' '-ffunction-sections' '-fdata-sections' '-fno-aggressive-loop-optimizations' '-fno-optimize-strlen' '-fno-schedule-insns' '-fno-inline-small-functions' '-fno-inline-functions-called-once' '-fno-strict-aliasing' '-finline-limit=20' '-mlittle-endian' '-nostartfiles' '-funwind-tables' '-v' '-o' 'CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_083d4.dir/'
+ /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/as -EL -mabi=lp64 -o CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj /tmp/cceaSyV0.s
+COMPILER_PATH=/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/
+COLLECT_GCC_OPTIONS='-Os' '-Wformat-signedness' '-fno-PIE' '-specs=nosys.specs' '-fno-builtin' '-fno-dwarf2-cfi-asm' '-fomit-frame-pointer' '-fzero-initialized-in-bss' '-fdollars-in-identifiers' '-ffunction-sections' '-fdata-sections' '-fno-aggressive-loop-optimizations' '-fno-optimize-strlen' '-fno-schedule-insns' '-fno-inline-small-functions' '-fno-inline-functions-called-once' '-fno-strict-aliasing' '-finline-limit=20' '-mlittle-endian' '-nostartfiles' '-funwind-tables' '-v' '-o' 'CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_083d4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_083d4.dir/link.txt --verbose=1
+/home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gcc -Os   -Wformat-signedness    -Wl,--build-id=none   -fno-PIE -fno-PIE --specs=nosys.specs -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20  -mlittle-endian -nostartfiles -funwind-tables     -T /home/fengzhua/OSlab/lab1/src/aarch64-qemu.ld -v CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj -o cmTC_083d4 
+Using built-in specs.
+Reading specs from /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/nosys.specs
+rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence
+COLLECT_GCC=/home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gcc
+COLLECT_LTO_WRAPPER=/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper
+Target: aarch64-none-elf
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+COMPILER_PATH=/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/
+COLLECT_GCC_OPTIONS='-Os' '-Wformat-signedness' '-fno-PIE' '-specs=nosys.specs' '-fno-builtin' '-fno-dwarf2-cfi-asm' '-fomit-frame-pointer' '-fzero-initialized-in-bss' '-fdollars-in-identifiers' '-ffunction-sections' '-fdata-sections' '-fno-aggressive-loop-optimizations' '-fno-optimize-strlen' '-fno-schedule-insns' '-fno-inline-small-functions' '-fno-inline-functions-called-once' '-fno-strict-aliasing' '-finline-limit=20' '-mlittle-endian' '-nostartfiles' '-funwind-tables' '-T' '/home/fengzhua/OSlab/lab1/src/aarch64-qemu.ld' '-v' '-o' 'cmTC_083d4' '-mabi=lp64' '-dumpdir' 'cmTC_083d4.'
+ /home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/collect2 -plugin /home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/liblto_plugin.so -plugin-opt=/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdZHxiZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -EL -X -maarch64elf -o cmTC_083d4 -L/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1 -L/home/fengzhua/aarch64-none-elf/bin/../lib/gcc -L/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib --build-id=none CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc --start-group -lgcc -lc -lnosys --end-group -T /home/fengzhua/OSlab/lab1/src/aarch64-qemu.ld
+COLLECT_GCC_OPTIONS='-Os' '-Wformat-signedness' '-fno-PIE' '-specs=nosys.specs' '-fno-builtin' '-fno-dwarf2-cfi-asm' '-fomit-frame-pointer' '-fzero-initialized-in-bss' '-fdollars-in-identifiers' '-ffunction-sections' '-fdata-sections' '-fno-aggressive-loop-optimizations' '-fno-optimize-strlen' '-fno-schedule-insns' '-fno-inline-small-functions' '-fno-inline-functions-called-once' '-fno-strict-aliasing' '-finline-limit=20' '-mlittle-endian' '-nostartfiles' '-funwind-tables' '-T' '/home/fengzhua/OSlab/lab1/src/aarch64-qemu.ld' '-v' '-o' 'cmTC_083d4' '-mabi=lp64' '-dumpdir' 'cmTC_083d4.'
+gmake[1]: Leaving directory '/home/fengzhua/OSlab/lab1/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include]
+    add: [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed]
+    add: [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include]
+  end of search list found
+  collapse include dir [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include] ==> [/home/fengzhua/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include]
+  collapse include dir [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed] ==> [/home/fengzhua/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include-fixed]
+  collapse include dir [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include] ==> [/home/fengzhua/aarch64-none-elf/aarch64-none-elf/include]
+  implicit include dirs: [/home/fengzhua/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include;/home/fengzhua/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include-fixed;/home/fengzhua/aarch64-none-elf/aarch64-none-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-none-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/fengzhua/OSlab/lab1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_083d4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_083d4.dir/build.make CMakeFiles/cmTC_083d4.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/fengzhua/OSlab/lab1/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gcc   -Os   -Wformat-signedness    -Wl --build-id=none   -fno-PIE -fno-PIE --specs=nosys.specs -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20  -mlittle-endian -nostartfiles -funwind-tables     -v -o CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gcc]
+  ignore line: [Target: aarch64-none-elf]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c c++ fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-Wformat-signedness' '-fno-PIE' '-specs=nosys.specs' '-fno-builtin' '-fno-dwarf2-cfi-asm' '-fomit-frame-pointer' '-fzero-initialized-in-bss' '-fdollars-in-identifiers' '-ffunction-sections' '-fdata-sections' '-fno-aggressive-loop-optimizations' '-fno-optimize-strlen' '-fno-schedule-insns' '-fno-inline-small-functions' '-fno-inline-functions-called-once' '-fno-strict-aliasing' '-finline-limit=20' '-mlittle-endian' '-nostartfiles' '-funwind-tables' '-v' '-o' 'CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_083d4.dir/']
+  ignore line: [ /home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/cc1 -quiet -v -iprefix /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/ /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_083d4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -Os -Wformat-signedness -version -fno-PIE -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20 -funwind-tables -o /tmp/cceaSyV0.s]
+  ignore line: [GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include"]
+  ignore line: [ignoring duplicate directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include]
+  ignore line: [ /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed]
+  ignore line: [ /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: f439aba255d83361daaefa61251d2eab]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-Wformat-signedness' '-fno-PIE' '-specs=nosys.specs' '-fno-builtin' '-fno-dwarf2-cfi-asm' '-fomit-frame-pointer' '-fzero-initialized-in-bss' '-fdollars-in-identifiers' '-ffunction-sections' '-fdata-sections' '-fno-aggressive-loop-optimizations' '-fno-optimize-strlen' '-fno-schedule-insns' '-fno-inline-small-functions' '-fno-inline-functions-called-once' '-fno-strict-aliasing' '-finline-limit=20' '-mlittle-endian' '-nostartfiles' '-funwind-tables' '-v' '-o' 'CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_083d4.dir/']
+  ignore line: [ /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/as -EL -mabi=lp64 -o CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj /tmp/cceaSyV0.s]
+  ignore line: [COMPILER_PATH=/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-Wformat-signedness' '-fno-PIE' '-specs=nosys.specs' '-fno-builtin' '-fno-dwarf2-cfi-asm' '-fomit-frame-pointer' '-fzero-initialized-in-bss' '-fdollars-in-identifiers' '-ffunction-sections' '-fdata-sections' '-fno-aggressive-loop-optimizations' '-fno-optimize-strlen' '-fno-schedule-insns' '-fno-inline-small-functions' '-fno-inline-functions-called-once' '-fno-strict-aliasing' '-finline-limit=20' '-mlittle-endian' '-nostartfiles' '-funwind-tables' '-v' '-o' 'CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj' '-c' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_083d4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_083d4.dir/link.txt --verbose=1]
+  ignore line: [/home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gcc -Os   -Wformat-signedness    -Wl --build-id=none   -fno-PIE -fno-PIE --specs=nosys.specs -fno-builtin -fno-dwarf2-cfi-asm -fomit-frame-pointer -fzero-initialized-in-bss -fdollars-in-identifiers -ffunction-sections -fdata-sections -fno-aggressive-loop-optimizations -fno-optimize-strlen -fno-schedule-insns -fno-inline-small-functions -fno-inline-functions-called-once -fno-strict-aliasing -finline-limit=20  -mlittle-endian -nostartfiles -funwind-tables     -T /home/fengzhua/OSlab/lab1/src/aarch64-qemu.ld -v CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj -o cmTC_083d4 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/nosys.specs]
+  ignore line: [rename spec link_gcc_c_sequence to nosys_link_gcc_c_sequence]
+  ignore line: [COLLECT_GCC=/home/fengzhua/aarch64-none-elf/bin/aarch64-none-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper]
+  ignore line: [Target: aarch64-none-elf]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c c++ fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) ]
+  ignore line: [COMPILER_PATH=/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/:/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-Os' '-Wformat-signedness' '-fno-PIE' '-specs=nosys.specs' '-fno-builtin' '-fno-dwarf2-cfi-asm' '-fomit-frame-pointer' '-fzero-initialized-in-bss' '-fdollars-in-identifiers' '-ffunction-sections' '-fdata-sections' '-fno-aggressive-loop-optimizations' '-fno-optimize-strlen' '-fno-schedule-insns' '-fno-inline-small-functions' '-fno-inline-functions-called-once' '-fno-strict-aliasing' '-finline-limit=20' '-mlittle-endian' '-nostartfiles' '-funwind-tables' '-T' '/home/fengzhua/OSlab/lab1/src/aarch64-qemu.ld' '-v' '-o' 'cmTC_083d4' '-mabi=lp64' '-dumpdir' 'cmTC_083d4.']
+  link line: [ /home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/collect2 -plugin /home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/liblto_plugin.so -plugin-opt=/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdZHxiZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -EL -X -maarch64elf -o cmTC_083d4 -L/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1 -L/home/fengzhua/aarch64-none-elf/bin/../lib/gcc -L/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib --build-id=none CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lgcc --start-group -lgcc -lc -lnosys --end-group -T /home/fengzhua/OSlab/lab1/src/aarch64-qemu.ld]
+    arg [/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/fengzhua/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdZHxiZ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-X] ==> ignore
+    arg [-maarch64elf] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_083d4] ==> ignore
+    arg [-L/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1] ==> dir [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1]
+    arg [-L/home/fengzhua/aarch64-none-elf/bin/../lib/gcc] ==> dir [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc]
+    arg [-L/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib] ==> dir [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib]
+    arg [--build-id=none] ==> ignore
+    arg [CMakeFiles/cmTC_083d4.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [--end-group] ==> ignore
+    arg [-T] ==> ignore
+    arg [/home/fengzhua/OSlab/lab1/src/aarch64-qemu.ld] ==> ignore
+  collapse library dir [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1] ==> [/home/fengzhua/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1]
+  collapse library dir [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc] ==> [/home/fengzhua/aarch64-none-elf/lib/gcc]
+  collapse library dir [/home/fengzhua/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib] ==> [/home/fengzhua/aarch64-none-elf/aarch64-none-elf/lib]
+  implicit libs: [gcc;c;gcc;gcc;c;nosys]
+  implicit objs: []
+  implicit dirs: [/home/fengzhua/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1;/home/fengzhua/aarch64-none-elf/lib/gcc;/home/fengzhua/aarch64-none-elf/aarch64-none-elf/lib]
+  implicit fwks: []
+
+
