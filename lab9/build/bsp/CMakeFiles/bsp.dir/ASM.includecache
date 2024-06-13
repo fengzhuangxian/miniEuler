@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fengzhua/OSlab/lab9_hw1/src/bsp/cache_asm.S
+
+/home/fengzhua/OSlab/lab9_hw1/src/bsp/prt_reset_vector.S
+
+/home/fengzhua/OSlab/lab9_hw1/src/bsp/prt_vector.S
+
+/home/fengzhua/OSlab/lab9_hw1/src/bsp/start.S
+
