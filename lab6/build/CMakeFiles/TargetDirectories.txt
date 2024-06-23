@@ -1,0 +1,17 @@
+/home/fengzhua/OSlab/lab6/build/CMakeFiles/miniEuler.dir
+/home/fengzhua/OSlab/lab6/build/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab6/build/CMakeFiles/rebuild_cache.dir
+/home/fengzhua/OSlab/lab6/build/bsp/CMakeFiles/bsp.dir
+/home/fengzhua/OSlab/lab6/build/bsp/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab6/build/bsp/CMakeFiles/rebuild_cache.dir
+/home/fengzhua/OSlab/lab6/build/kernel/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab6/build/kernel/CMakeFiles/rebuild_cache.dir
+/home/fengzhua/OSlab/lab6/build/kernel/tick/CMakeFiles/tick.dir
+/home/fengzhua/OSlab/lab6/build/kernel/tick/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab6/build/kernel/tick/CMakeFiles/rebuild_cache.dir
+/home/fengzhua/OSlab/lab6/build/kernel/task/CMakeFiles/task.dir
+/home/fengzhua/OSlab/lab6/build/kernel/task/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab6/build/kernel/task/CMakeFiles/rebuild_cache.dir
+/home/fengzhua/OSlab/lab6/build/kernel/sched/CMakeFiles/sched.dir
+/home/fengzhua/OSlab/lab6/build/kernel/sched/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab6/build/kernel/sched/CMakeFiles/rebuild_cache.dir

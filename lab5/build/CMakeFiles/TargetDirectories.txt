@@ -1,0 +1,11 @@
+/home/fengzhua/OSlab/lab5/build/CMakeFiles/miniEuler.dir
+/home/fengzhua/OSlab/lab5/build/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab5/build/CMakeFiles/rebuild_cache.dir
+/home/fengzhua/OSlab/lab5/build/bsp/CMakeFiles/bsp.dir
+/home/fengzhua/OSlab/lab5/build/bsp/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab5/build/bsp/CMakeFiles/rebuild_cache.dir
+/home/fengzhua/OSlab/lab5/build/kernel/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab5/build/kernel/CMakeFiles/rebuild_cache.dir
+/home/fengzhua/OSlab/lab5/build/kernel/tick/CMakeFiles/tick.dir
+/home/fengzhua/OSlab/lab5/build/kernel/tick/CMakeFiles/edit_cache.dir
+/home/fengzhua/OSlab/lab5/build/kernel/tick/CMakeFiles/rebuild_cache.dir
