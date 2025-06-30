@@ -1,6 +1,6 @@
 # miniEuler By HNUer
 
-
+实验指导书：[前言 — os2024 lab 文档](https://os2024lab.readthedocs.io/zh-cn/latest/intro/index.html)
 
 ## 前言
 
@@ -32,11 +32,11 @@
 
 #### 文件结构
 
-**src：**放置所有源代码
+**src**：放置所有源代码
 
-**src/bsp：**存放与硬件紧密相关的代码
+**src/bsp**：存放与硬件紧密相关的代码
 
-**src/include：**存放项目的大部分头文件
+**src/include**：存放项目的大部分头文件
 
 
 
